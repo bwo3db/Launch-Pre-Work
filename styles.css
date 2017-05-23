@@ -1,0 +1,351 @@
+* {
+  margin:0;
+  padding:0;
+  font-family: 'futura', sans-serif;
+}
+
+#video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+
+#not-video {
+   display:none;
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   min-width: 100%;
+   min-height: 100%;
+   width: auto;
+   height: auto;
+   z-index: -100;
+}
+
+.top-block {
+   height:1225px;
+   width:100%;
+   position:relative;
+}
+
+.nav-bar{
+   height:85px;
+   background-color:white;
+   z-index:300;
+}
+
+.nav-bar-sticky {
+   position:fixed;
+   width:100%;
+   top:0px;
+}
+
+.bottom-block {
+   height:900px;
+   background-image: url(https://tomtomfest.com/content/uploads/2015/05/Mike-Mallory-wide_m.jpg);
+   background-repeat: no-repeat;
+   background-position: right top;
+   position:relative;
+}
+
+.link-icons {
+   position:absolute;
+   right:20px;
+   top:165px;
+}
+
+.icon-charc {
+   height:55px;
+   width:55px;
+   padding:10px;
+}
+
+.main-title-block {
+   position:relative;
+   top:300px;
+   margin:auto;
+}
+
+.squiggly-div {
+   position:relative;
+   top:50px;
+   width:200px;
+   margin:auto;
+}
+
+.squiggly {
+   width:100%;
+}
+
+.head-1 {
+   letter-spacing:2px;
+   text-align:center;
+   font-weight:bold;
+   color:white;
+   font-size:75px;
+}
+
+.sub-head-1-charc {
+   letter-spacing: 5px;
+   font-weight: bold;
+}
+
+.sub-head-1 {
+   position:relative;
+   text-align:center;
+   top:80px;
+   width:500px;
+   margin:0 auto;
+   color:#bff7df;
+}
+
+.sect-icons-charc {
+   width:100%;
+}
+
+.sect-icons {
+   position:relative;
+   top:90px;
+   width:500px;
+   margin:0 auto;
+}
+
+ul {
+   display:block;
+   width:1300px;
+   height:100%;
+   list-style-type:none;
+   position:absolute;
+}
+
+li {
+   position:relative;
+   display:inline-block;
+   text-align:center;
+   margin-left:23px;
+   margin-right:23px;
+   top:8px;
+   font-weight:lighter;
+}
+
+li.a {
+   font-weight:200;
+}
+
+.logo-img {
+   width:100%;
+}
+
+.logo {
+   position:relative;
+   display:inline-block;
+   width:110px;
+   margin-left:25px;
+   top:13px;
+}
+
+.logo-mobile {
+   position:relative;
+   display:inline-block;
+   width:100px;
+   margin-left:20px;
+   top:10px;
+}
+
+a {
+   color:#A9A9A9;
+   text-decoration:none;
+   font-size:14px;
+   font-weight:300;
+}
+
+a:hover {
+   color:black;
+}
+
+.search-support {
+   width:250px;
+   height:85px;
+   position:absolute;
+   right:0;
+   background-color:green;
+}
+
+.support {
+   width:200px;
+   height:inherit;
+   position:absolute;
+   left:0;
+   background-color:#bff7df;
+   text-align:center;
+   vertical-align:middle;
+}
+
+.sup-p {
+   position:relative;
+   top:33px;
+   font-size:14px;
+   color:white;
+
+}
+
+.search {
+   height:inherit;
+   width:50px;
+   position:absolute;
+   right:0;
+   background-color:grey;
+}
+
+.search-icon {
+   width:25px;
+   height:40px;
+   padding:15px;
+   padding-top:20px;
+   padding-left:10px;
+   padding-right:auto;
+}
+
+.clear-box {
+   background-color:white;
+   width:600px;
+   height:350px;
+   position:absolute;
+   top:50%;
+   left:50%;
+   margin: -200px 0 0 -300px;
+   opacity:0.8;
+}
+
+.head-2 {
+   color:#751775;
+   text-align:center;
+   font-size:25px;
+   opacity:1.0;
+   margin-bottom:10px;
+}
+
+.sub-head-2 {
+   opacity:1.0;
+   text-align:center;
+   margin-bottom:60px;
+}
+
+.sub-head-2a {
+   color:#A9A9A9;
+   margin:2px;
+}
+
+.red-button {
+   width:300px;
+   opacity:1.0;
+   color:white;
+   font-size:14px;
+   margin-left:auto;
+   margin-right:auto;
+   background-color:#ec1a2e;
+   padding:20px;
+   text-align:center;
+}
+
+.red-button:hover {
+   background-color:crimson;
+}
+
+header {
+   display:none;
+   background-color:white;
+   width:100%;
+   height:63px;
+   position:relative;
+}
+
+.hamburg-menu {
+   width:40px;
+   position:absolute;
+   right:10px;
+   top:13px;
+}
+
+h4 {
+   color:white;
+}
+
+.sponsors-text {
+   display:none;
+   position:absolute;
+   left:35px;
+   top:35px;
+}
+
+.sponsors-arrow-img {
+   width:15px;
+   position:absolute;
+   right:30px;
+   top:30px;
+}
+
+.sponsors-arrow {
+   display:none;
+   width:60px;
+   position:absolute;
+   right:0px;
+   background-color:#741d74;
+}
+
+.below-bottom {
+   height:900;
+   width:100%;
+   background-color:#c0c0c0;
+}
+
+@media only screen and (max-width:960px) {
+   header {
+      display:block;
+   }
+   ul {
+      display:none;
+   }
+   .search-support {
+      display:none;
+   }
+   .nav-bar {
+      background-color:#7c257c;
+      position:relative;
+   }
+   .sponsors-arrow,.sponsors-text {
+      display:inline-block;
+   }
+
+   .nav-bar:hover {
+      background-color:#741d74;
+   }
+
+   h4:hover {
+      color:black;
+   }
+
+}
+
+@media only screen and (max-width:740px) {
+   #video {
+      display:none;
+   }
+   #not-video {
+      display:block;
+   }
+}
+
+@media only screen and (max-width:480px){
+   .head-1 {
+      font-size:50px;
+   }
+   .head-2 {
+      font-size:15px;
+   }
+}

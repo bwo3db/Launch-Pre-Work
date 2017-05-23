@@ -1,0 +1,8 @@
+video background:https://tomtomfest.com/content/uploads/2017/02/Homepage-B.mp4
+temp background:https://tomtomfest.com/content/uploads/2017/04/Paramount-Audience-2.jpg
+squiggle:https://tomtomfest.com/content/themes/storyware/resources/assets/build/img/squiggle-red@2x.png
+4secticons:https://tomtomfest.com/content/uploads/2016/11/TT17webicons-01-1024x292.png
+facebook icon:https://tomtomfest.com/content/uploads/2016/09/TTFFsocialIcons-03.png
+instagram icon:https://tomtomfest.com/content/uploads/2016/09/TTFFsocialIcons-02.png
+twitter icon:https://tomtomfest.com/content/uploads/2016/09/TTFFsocialIcons-01.png
+tom tom founders festival icon:https://tomtomfest.com/content/themes/storyware/resources/assets/build/svg/tom-tom-logo.svg
